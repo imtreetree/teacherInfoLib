@@ -1,0 +1,26 @@
+{
+  "name": "teacher_info_lib",
+  "version": "1.0.0",
+  "description": "react+node+graphQL+mySQL",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "webpack-dev-server ./build/webpack.config.js --open",
+    "build": "cp /client/view/* /dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imtreetree/teacher_info_lib.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/imtreetree/teacher_info_lib/issues"
+  },
+  "homepage": "https://github.com/imtreetree/teacher_info_lib#readme",
+  "devDependencies": {
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
+  }
+}
